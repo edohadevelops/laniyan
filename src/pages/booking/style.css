@@ -1,0 +1,18 @@
+.booking-page{
+    @apply pb-10
+}
+.booking-session-details{
+    @apply w-full flex justify-center mb-4 pt-10
+}
+.booking-session-img{
+    @apply w-full max-w-[500px] max-h-[500px]
+}
+.booking-session-img img{
+    @apply h-full w-full object-cover object-top
+}
+.booking-session-calendar{
+    @apply w-full h-[400px] md:h-[600px] bg-gray-200 text-gray-700 flex items-center justify-center
+}
+.booking-session-calendar p {
+    @apply italic font-subText text-[22px]
+}

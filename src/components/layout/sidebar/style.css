@@ -1,0 +1,27 @@
+.sidebar-container{
+    @apply bg-[#0000008e] fixed top-0 left-0 w-[100vw] h-[100vh] z-50 backdrop-blur-[2px]
+}
+.sidebar{
+    @apply h-full  w-full max-w-[250px] md:max-w-[300px] bg-white transition-all duration-300 ease-in-out relative py-8 flex flex-col justify-between font-subText
+}
+.sidebar-content{
+    @apply flex flex-col items-center
+}
+.sidebar-close-btn{
+    @apply absolute top-4 right-4 text-gray-800 bg-gray-100 p-2 rounded-full hover:bg-gray-200
+}
+.sidebar-logo{
+    @apply w-[80px]
+}
+.sidebar-logo img{
+    @apply w-full h-full
+}
+.sidebar-links{
+    @apply flex flex-col gap-4 pt-10
+}
+.sidebar-link{
+    @apply w-[90px] h-[90px] rounded-full bg-black text-white border-2 border-transparent flex flex-col items-center justify-center hover:bg-white hover:border-black hover:text-black transition-colors duration-300 ease-in-out font-subText font-bold leading-[18px] mx-auto text-center
+}
+.sidebar-terms{
+    @apply flex flex-col gap-3 items-center uppercase text-gray-700 font-semibold text-sm
+}

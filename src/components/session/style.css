@@ -1,0 +1,18 @@
+.session-card{
+    @apply cursor-pointer transition-all duration-300 ease-in-out
+}
+.session-card-img{
+    @apply w-full h-[300px]
+}
+.session-card-img img{
+    @apply w-full h-full object-cover object-top
+}
+.session-card-details{
+    @apply py-3 transition-all duration-300 ease-in-out
+}
+.session-card-title{
+    @apply text-[22px] font-subText
+}
+.session-card-price{
+    @apply font-semibold
+}

@@ -1,0 +1,51 @@
+.footer-component{
+    @apply w-full pt-10 bg-[#f5f0eb] font-subText
+}
+.footer-top{
+    @apply flex flex-col md:flex-row min-h-[400px] w-full items-center py-4 border-y border-y-[#e1e1e1] px-4
+}
+.footer-top-item{
+    @apply lg:flex-1 flex flex-col lg:min-h-[250px] lg:px-8 py-3 max-lg:w-full
+}
+.footer-top-socials{
+    @apply flex items-center justify-center gap-4
+}
+.footer-top-socials button{
+    @apply text-lg font-semibold
+}
+.footer-social-leading{
+    @apply text-[23px] tracking-[4px] uppercase text-gray-900 font-semibold
+}
+.footer-social-trailing{
+    @apply italic text-gray-700 text-xl
+}
+.footer-logo{
+    @apply w-[100px] h-[100px]
+}
+.footer-logo img{
+    @apply w-full h-full
+}
+.footer-subscribe{
+    @apply flex flex-col items-center justify-center gap-4
+}
+.footer-subscribe-leading{
+    @apply text-[25px] font-bold uppercase
+}
+.footer-subscribe-input{
+    @apply w-full outline-none h-[50px] border-b-2 border-b-gray-300 focus:border-b-[#0a0a0a] text-lg font-semibold transition-all duration-300 ease-in-out
+}
+.footer-subscribe-btn{
+    @apply w-[90px] h-[90px] rounded-full bg-[#0a0a0a] py-4 text-base text-white border border-transparent transition-colors duration-300 hover:bg-white hover:border-[#131313] hover:text-black font-semibold tracking-wide
+}
+.footer-bottom{
+    @apply grid grid-cols-1 lg:grid-cols-3 py-7 items-center text-gray-800 gap-2 max-md:gap-4
+}
+.footer-copyright{
+    @apply text-xl italic text-center
+}
+.footer-bottom-item{
+    @apply lg:place-items-center flex flex-col justify-center items-center
+}
+.footer-terms{
+    @apply uppercase tracking-[2px] cursor-pointer text-sm
+}

@@ -1,0 +1,40 @@
+.hero-section{
+    @apply py-8 relative min-h-[600px] flex flex-col items-center justify-center
+}
+.hero-text{
+    @apply text-[30px] md:text-[40px] lg:text-[55px] tracking-[10px] text-center font-subText uppercase z-[200] font-semibold mb-3;
+    text-shadow: 0px 0px 2px gray
+}
+.hero-contents{
+    @apply grid lg:grid-cols-3 z-[10] w-full
+}
+.hero-card {
+    @apply relative transition-all duration-300 ease-in-out;
+}
+.hero-card-img {
+    @apply transition-all duration-300 mb-2 relative
+}
+.hero-card-img-el {
+    @apply object-cover w-full h-full object-top;
+}
+.hero-card-text{
+    @apply text-gray-800 text-[15px]
+}
+.book-session-btn{
+    @apply absolute -bottom-[40px] -right-[40px] bg-[#0a0a0a] h-[80px] w-[80px] flex flex-col items-center justify-center rounded-full text-wrap text-white text-center text-sm transition-colors duration-300 ease-in-out border-2 border-transparent hover:text-[#0a0a0a] hover:border-[#0a0a0a] hover:bg-white
+}
+
+
+.small-hero-section{
+    @apply w-full min-h-[calc(100vh-80px)] bg-cover bg-top text-white flex flex-col items-center py-10 justify-center font-subText px-4 lg:px-10;
+    /* background: linear-gradient(20deg,black,black),url; */
+}
+.small-hero-leading{
+    @apply text-[40px] sm:text-[45px] lg:text-[70px] tracking-[10px] lg:tracking-[15px] uppercase text-center
+}
+.small-hero-trailing{
+    @apply text-xl sm:text-[22px] italic mb-6 text-center
+}
+.small-hero-cta{
+    @apply w-[150px] h-[150px] rounded-full bg-black font-bold border-2 border-transparent flex flex-col items-center justify-center uppercase hover:bg-white hover:border-black hover:text-black transition-colors duration-300 ease-in-out text-center
+}

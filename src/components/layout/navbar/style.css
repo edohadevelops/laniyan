@@ -1,0 +1,18 @@
+.landing-navbar{
+    @apply w-full py-3 grid grid-cols-3 lg:grid-cols-3 h-[80px] relative lg:place-items-center items-center
+}
+.landing-navbar-logo{
+    @apply font-extrabold font-subText text-[30px] flex items-center w-fit justify-center max-lg:place-self-end max-lg:col-span-2
+}
+.landing-navbar-links{
+    @apply  hidden lg:flex gap-8 justify-self-end
+}
+.landing-navbar-link{
+    @apply text-lg
+}
+.navbar-hidden{
+    @apply -top-[100px] 
+}
+.landing-navbar-menu{
+    @apply justify-self-start max-lg:col-span-1
+}

@@ -1,0 +1,6 @@
+.page-layout{
+    @apply h-full w-full pt-[80px] overflow-x-hidden
+}
+.landing-page-limit{
+    @apply w-full max-w-[1600px] px-6 md:px-10 lg:px-16 xl:px-20
+}

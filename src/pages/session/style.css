@@ -23,7 +23,7 @@
     @apply absolute right-0 top-0 text-sm h-[40px] flex flex-col items-center justify-center px-3
 }
 .session-filter-section{
-    @apply flex items-center justify-center
+    @apply flex items-center justify-center flex-wrap
 }
 .session-sort{
     @apply h-full flex gap-1 items-center mr-3

@@ -34,9 +34,9 @@ const Sidebar = () => {
                     <img src={Logo} alt='kunle-laniyan-logo' />
                 </div>
                 <div className="sidebar-links">
-                    <NavLink to={routes?.HOME} className={'sidebar-link'}>Home</NavLink>
-                    <NavLink to={routes?.SESSION} className={'sidebar-link'}>Book a Session</NavLink>
-                    <NavLink to={routes?.CONTACT} className={'sidebar-link'}>Contact us</NavLink>
+                    <NavLink onClick={()=>setSidebarShown(false)} to={routes?.HOME} className={'sidebar-link'}>Home</NavLink>
+                    <NavLink onClick={()=>setSidebarShown(false)} to={routes?.SESSION} className={'sidebar-link'}>Book a Session</NavLink>
+                    <NavLink onClick={()=>setSidebarShown(false)} to={routes?.CONTACT} className={'sidebar-link'}>Contact us</NavLink>
                 </div>
             </div>
             <div className="sidebar-terms">
